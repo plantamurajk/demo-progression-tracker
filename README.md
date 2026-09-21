@@ -1,14 +1,11 @@
-<img width="552" height="402" alt="Screenshot 2026-09-21 at 1 29 11 PM" src="https://github.com/user-attachments/assets/840ad5fd-b20d-4e27-9799-ee3c6a027a7e" />
-<img width="552" height="402" alt="Screenshot 2026-09-21 at 1 32 10 PM" src="https://github.com/user-attachments/assets/2266b08d-4aa9-4de4-bc72-df1f11a0505c" />
-
-
 # Beanstalk Progression Tracker
 
 An internal web app built for the production floor of a vertical farming facility, giving every employee a real-time view of where they stand in the company's career ladder and what they need to do next.
 
 **[Live demo](https://demo-progression-tracker-fgtv.vercel.app/)**. Runs entirely on fictional data. No login required.
 
----
+<img width="552" height="402" alt="Screenshot of a Farmhand's Home screen" src="https://github.com/user-attachments/assets/840ad5fd-b20d-4e27-9799-ee3c6a027a7e" />
+<img width="552" height="402" alt="Screenshot of a Farmer L2's Ladder screen" src="https://github.com/user-attachments/assets/2266b08d-4aa9-4de4-bc72-df1f11a0505c" />
 
 ## The problem
 

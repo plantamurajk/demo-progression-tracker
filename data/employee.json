@@ -1,0 +1,1515 @@
+[
+  {
+    "id": "emp_001",
+    "name": "Maria Santos",
+    "email": null,
+    "rank": "Farmhand",
+    "level": null,
+    "primary_station": "Packaging",
+    "start_date": "2026-01-01",
+    "rank_start_date": "2026-01-01",
+    "current_stage": "proficiency",
+    "language": "en",
+    "status": "active",
+    "avatar_url": null,
+    "stageProgress": {
+      "onboarding": {
+        "hr_complete": true,
+        "safety_training": true,
+        "station_tour": true,
+        "emergency_procedures": true,
+        "station_shadow": true
+      },
+      "foundations": {
+        "independent_tasks": true,
+        "safety_quiz": true,
+        "clean_safety_record": true,
+        "attendance_satisfactory": true,
+        "working_at_pace": true
+      },
+      "proficiency": {
+        "multi_station": true,
+        "production_schedule": true,
+        "good_attendance": true,
+        "cross_training": false
+      }
+    },
+    "stationExperience": [
+      {
+        "station_id": "Packaging",
+        "hours": 320,
+        "qualified": true,
+        "positions": [
+          "Runner",
+          "Catcher",
+          "Tamper"
+        ]
+      },
+      {
+        "station_id": "Washing",
+        "hours": 72,
+        "qualified": false,
+        "positions": [
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Dirt Removal",
+        "hours": 16,
+        "qualified": false,
+        "positions": [
+          "Lead"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Forklift",
+        "status": "active",
+        "earned": "2026-03-15",
+        "expires": "2028-03-15"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name_en": "Case Packing (speed)",
+        "name_es": "Velocidad de Empaque",
+        "level": "proficient",
+        "category": "technique",
+        "station_id": "Packaging",
+        "notes_en": "Can pack cases at a rate of 28ppm",
+        "notes_es": "Alcanza consistentemente 40+ cajas/hora",
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-03-28"
+      },
+      {
+        "id": 2,
+        "name_en": "Scale Calibration",
+        "name_es": "Calibración de Báscula",
+        "level": "competent",
+        "category": "machine",
+        "station_id": "Packaging",
+        "notes_en": "Can properly calibrate Yamato scale under 10 minutes",
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-02-14"
+      },
+      {
+        "id": 3,
+        "name_en": "Tray Washing SOP",
+        "name_es": "PNO de Lavado de Bandejas",
+        "level": "learning",
+        "category": "technique",
+        "station_id": "Washing",
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-04-01"
+      },
+      {
+        "id": 4,
+        "name_en": "Forklift",
+        "name_es": "Montacargas",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": "Passed on first attempt",
+        "notes_es": "Aprobó en el primer intento",
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-03-15"
+      }
+    ],
+    "devSuggestions": [
+      {
+        "id": 1,
+        "skill_en": "Wash Line Operation",
+        "skill_es": "Operación de Línea de Lavado",
+        "station_id": "Washing",
+        "suggested_by": "Jack P.",
+        "reason_en": "8h from qualification, showing strong interest",
+        "reason_es": "A 8h de calificarse, muestra mucho interés"
+      }
+    ],
+    "assessments": [
+      {
+        "station_id": null,
+        "module_id": "mod-01",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jan 8",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-02",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jan 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-04",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jan 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Feb 20",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Feb 22",
+        "evaluator_id": null
+      }
+    ],
+    "violations": [
+      {
+        "type": "PPE Violation",
+        "date": "2026-01-15",
+        "note": "Missing hairnet at harvest line",
+        "level": 1
+      }
+    ],
+    "requests": [
+      {
+        "id": 1,
+        "type": "Practical Assessment",
+        "station_id": "Washing",
+        "module_id": null,
+        "requested_at": "2026-04-03",
+        "status": "pending",
+        "response": null
+      }
+    ],
+    "promotionReqs": [
+      {
+        "label": "Time in role",
+        "detail": "3 months",
+        "met": true
+      },
+      {
+        "label": "Clean record",
+        "detail": "3 months",
+        "met": true
+      },
+      {
+        "label": "All stages complete",
+        "detail": "Onboarding through Farmer Ready",
+        "met": false
+      },
+      {
+        "label": "Forklift certification",
+        "detail": "Active",
+        "met": true
+      },
+      {
+        "label": "Supervisor recommendation",
+        "detail": "Required",
+        "met": false
+      }
+    ]
+  },
+  {
+    "id": "emp_005",
+    "name": "Jamie Chen",
+    "email": null,
+    "rank": "Farmhand",
+    "level": null,
+    "primary_station": "Seeding",
+    "start_date": "2026-04-28",
+    "rank_start_date": "2026-04-28",
+    "current_stage": "foundations",
+    "language": "en",
+    "status": "active",
+    "avatar_url": null,
+    "stageProgress": {
+      "onboarding": {
+        "hr_complete": true,
+        "safety_training": true,
+        "station_tour": true,
+        "emergency_procedures": true,
+        "station_shadow": true
+      },
+      "foundations": {
+        "independent_tasks": true,
+        "safety_quiz": false,
+        "clean_safety_record": false,
+        "attendance_satisfactory": false,
+        "working_at_pace": false
+      }
+    },
+    "stationExperience": [
+      {
+        "station_id": "Seeding",
+        "hours": 18,
+        "qualified": false,
+        "positions": [
+          "Feeder"
+        ]
+      }
+    ],
+    "certifications": [],
+    "skills": [],
+    "devSuggestions": [
+      {
+        "id": 2,
+        "skill_en": "Food Safety & Hygiene",
+        "skill_es": "Inocuidad Alimentaria e Higiene",
+        "station_id": null,
+        "suggested_by": "Jack P.",
+        "reason_en": "Complete by Day 30 — required for advancement",
+        "reason_es": "Completar antes del Día 30 — requerido para avanzar"
+      }
+    ],
+    "assessments": [],
+    "violations": [],
+    "requests": [],
+    "promotionReqs": [
+      {
+        "label": "Time in role",
+        "detail": "3 months",
+        "met": false
+      },
+      {
+        "label": "Clean record",
+        "detail": "3 months",
+        "met": true
+      },
+      {
+        "label": "All stages complete",
+        "detail": "Onboarding through Farmer Ready",
+        "met": false
+      },
+      {
+        "label": "Forklift certification",
+        "detail": "Not started",
+        "met": false
+      },
+      {
+        "label": "Supervisor recommendation",
+        "detail": "Required",
+        "met": false
+      }
+    ]
+  },
+  {
+    "id": "emp_002",
+    "name": "Diego Reyes",
+    "email": null,
+    "rank": "Farmer",
+    "level": "L2",
+    "primary_station": "Harvest",
+    "start_date": "2025-03-01",
+    "rank_start_date": "2025-11-01",
+    "current_stage": null,
+    "language": "en",
+    "status": "active",
+    "avatar_url": null,
+    "stageProgress": {},
+    "stationExperience": [
+      {
+        "station_id": "Seeding",
+        "hours": 97,
+        "qualified": true,
+        "positions": [
+          "Feeder",
+          "Stacker"
+        ]
+      },
+      {
+        "station_id": "Inserts",
+        "hours": 34,
+        "qualified": false,
+        "positions": [
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "ASRS",
+        "hours": 0,
+        "qualified": false,
+        "positions": []
+      },
+      {
+        "station_id": "Harvest",
+        "hours": 320,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Washing",
+        "hours": 91,
+        "qualified": false,
+        "positions": [
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Dirt Removal",
+        "hours": 0,
+        "qualified": false,
+        "positions": []
+      },
+      {
+        "station_id": "Packaging",
+        "hours": 186,
+        "qualified": true,
+        "positions": [
+          "Runner",
+          "Tamper"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Forklift",
+        "status": "active",
+        "earned": "2025-10-15",
+        "expires": "2027-10-15"
+      },
+      {
+        "name": "Hazardous Chemical",
+        "status": "not-started",
+        "earned": null,
+        "expires": null
+      },
+      {
+        "name": "FSMA",
+        "status": "not-started",
+        "earned": null,
+        "expires": null
+      }
+    ],
+    "skills": [
+      {
+        "id": 5,
+        "name_en": "Harvester Operation",
+        "name_es": "Operación de Cosechadora",
+        "level": "proficient",
+        "category": "machine",
+        "station_id": "Harvest",
+        "notes_en": "Very confident with corner position",
+        "notes_es": "Muy seguro en la posición de esquina",
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-02-20"
+      },
+      {
+        "id": 6,
+        "name_en": "Case Packing",
+        "name_es": "Empaque de Cajas",
+        "level": "competent",
+        "category": "technique",
+        "station_id": "Packaging",
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-01-10"
+      },
+      {
+        "id": 7,
+        "name_en": "Tray Washing SOP",
+        "name_es": "PNO de Lavado de Bandejas",
+        "level": "competent",
+        "category": "technique",
+        "station_id": "Washing",
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2026-03-05"
+      },
+      {
+        "id": 8,
+        "name_en": "Forklift Operation",
+        "name_es": "Operación de Montacargas",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-10-15"
+      }
+    ],
+    "devSuggestions": [
+      {
+        "id": 3,
+        "skill_en": "Seeding Lead Procedures",
+        "skill_es": "Procedimientos de Líder de Siembra",
+        "station_id": "Seeding",
+        "suggested_by": "Jack P.",
+        "reason_en": "Ready for Lead position at Seeding",
+        "reason_es": null
+      }
+    ],
+    "assessments": [
+      {
+        "station_id": null,
+        "module_id": "mod-01",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Mar 8",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-02",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Mar 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-04",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Mar 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Nov 18",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Nov 20",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Dec 10",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Dec 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Feb 3",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Feb 5",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Washing",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Mar 28",
+        "evaluator_id": null
+      }
+    ],
+    "violations": [
+      {
+        "type": "Late Arrival",
+        "date": "2026-04-25",
+        "note": "15 minutes — traffic",
+        "level": 1
+      }
+    ],
+    "requests": [],
+    "promotionReqs": [
+      {
+        "label": "Time in role",
+        "detail": "6 months in role",
+        "met": true
+      },
+      {
+        "label": "Clean record",
+        "detail": "6 months clean",
+        "met": true
+      },
+      {
+        "label": "Farmer L3",
+        "detail": "5 stations qualified",
+        "met": false
+      },
+      {
+        "label": "Interview panel",
+        "detail": "Required",
+        "met": false
+      },
+      {
+        "label": "Haz-Chem cert",
+        "detail": "Not started",
+        "met": false
+      },
+      {
+        "label": "FSMA certification",
+        "detail": "Not started",
+        "met": false
+      }
+    ]
+  },
+  {
+    "id": "emp_003",
+    "name": "Priya Patel",
+    "email": null,
+    "rank": "Senior Farmer",
+    "level": "L4",
+    "primary_station": "Harvest",
+    "start_date": "2024-04-01",
+    "rank_start_date": "2025-01-15",
+    "current_stage": null,
+    "language": "en",
+    "status": "active",
+    "avatar_url": null,
+    "stageProgress": {},
+    "stationExperience": [
+      {
+        "station_id": "Harvest",
+        "hours": 580,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder",
+          "Catcher"
+        ]
+      },
+      {
+        "station_id": "Packaging",
+        "hours": 320,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Runner",
+          "Tamper"
+        ]
+      },
+      {
+        "station_id": "Seeding",
+        "hours": 240,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Inserts",
+        "hours": 185,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "ASRS",
+        "hours": 160,
+        "qualified": true,
+        "positions": [
+          "Pilot"
+        ]
+      },
+      {
+        "station_id": "Washing",
+        "hours": 130,
+        "qualified": true,
+        "positions": [
+          "Feeder",
+          "Catcher"
+        ]
+      },
+      {
+        "station_id": "Dirt Removal",
+        "hours": 95,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Forklift",
+        "status": "active",
+        "earned": "2024-09-15",
+        "expires": "2026-09-15"
+      },
+      {
+        "name": "HACCP",
+        "status": "active",
+        "earned": "2025-03-10",
+        "expires": null
+      },
+      {
+        "name": "CPR/AED",
+        "status": "active",
+        "earned": "2025-06-20",
+        "expires": "2027-06-20"
+      }
+    ],
+    "skills": [
+      {
+        "id": 9,
+        "name_en": "Harvester Operation",
+        "name_es": "Operación de Cosechadora",
+        "level": "proficient",
+        "category": "machine",
+        "station_id": "Harvest",
+        "notes_en": "Strong lead presence on harvest line",
+        "notes_es": "Fuerte presencia de liderazgo en la línea de cosecha",
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-08-01"
+      },
+      {
+        "id": 10,
+        "name_en": "ASRS Operation",
+        "name_es": "Operación del ASRS",
+        "level": "proficient",
+        "category": "machine",
+        "station_id": "ASRS",
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-02-10"
+      },
+      {
+        "id": 11,
+        "name_en": "Case Packing (speed)",
+        "name_es": "Velocidad de Empaque",
+        "level": "proficient",
+        "category": "technique",
+        "station_id": "Packaging",
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-10-05"
+      },
+      {
+        "id": 12,
+        "name_en": "Forklift Operation",
+        "name_es": "Operación de Montacargas",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-09-15"
+      },
+      {
+        "id": 13,
+        "name_en": "HACCP Principles",
+        "name_es": "Principios HACCP",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-03-10"
+      },
+      {
+        "id": 14,
+        "name_en": "Training & Coaching",
+        "name_es": "Capacitación y Coaching",
+        "level": "proficient",
+        "category": "leadership",
+        "station_id": null,
+        "notes_en": "Excellent at breaking down steps for new hires",
+        "notes_es": "Excelente para explicar los pasos a los nuevos empleados",
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-02-01"
+      },
+      {
+        "id": 15,
+        "name_en": "Shift Lead",
+        "name_es": "Líder de Turno",
+        "level": "competent",
+        "category": "leadership",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-04-01"
+      }
+    ],
+    "devSuggestions": [
+      {
+        "id": 4,
+        "skill_en": "Conflict Resolution",
+        "skill_es": "Resolución de Conflictos",
+        "station_id": null,
+        "suggested_by": "Jack P.",
+        "reason_en": "Key gap before Supervisor promotion",
+        "reason_es": "Brecha clave antes de la promoción a Supervisor"
+      }
+    ],
+    "assessments": [
+      {
+        "station_id": null,
+        "module_id": "mod-01",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Apr 8",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-02",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Apr 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-04",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Apr 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Jun 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jun 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Jul 8",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jul 10",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Aug 5",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Aug 7",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Inserts",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Sep 22",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Inserts",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Sep 24",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "ASRS",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Oct 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "ASRS",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Oct 16",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Washing",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Nov 18",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Washing",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Nov 20",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Dirt Removal",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Dec 9",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Dirt Removal",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Dec 11",
+        "evaluator_id": null
+      }
+    ],
+    "violations": [],
+    "requests": [],
+    "promotionReqs": [
+      {
+        "label": "Time in role",
+        "detail": "16 months in role",
+        "met": true
+      },
+      {
+        "label": "Clean record",
+        "detail": "12 months clean",
+        "met": true
+      },
+      {
+        "label": "Sr. Farmer L4",
+        "detail": "All 7 stations qualified",
+        "met": true
+      },
+      {
+        "label": "Interview panel",
+        "detail": "Not yet scheduled",
+        "met": false
+      },
+      {
+        "label": "HACCP certification",
+        "detail": "Active",
+        "met": true
+      },
+      {
+        "label": "CPR/AED certification",
+        "detail": "Active",
+        "met": true
+      },
+      {
+        "label": "5+ people trained",
+        "detail": "5 documented",
+        "met": true
+      },
+      {
+        "label": "5+ shifts led",
+        "detail": "3 documented",
+        "met": false
+      }
+    ],
+    "training": {
+      "peopleTrained": [
+        {
+          "name": "Maria Santos",
+          "station": "Packaging",
+          "date": "Aug 10"
+        },
+        {
+          "name": "Diego Reyes",
+          "station": "Harvest",
+          "date": "Oct 5"
+        },
+        {
+          "name": "Leo C.",
+          "station": "Seeding",
+          "date": "Nov 20"
+        },
+        {
+          "name": "Hana M.",
+          "station": "Inserts",
+          "date": "Jan 15"
+        },
+        {
+          "name": "Alex T.",
+          "station": "Packaging",
+          "date": "Apr 28"
+        }
+      ],
+      "shiftsLed": [
+        {
+          "date": "Feb 10",
+          "station": "Harvest",
+          "note": "Full morning shift"
+        },
+        {
+          "date": "Feb 24",
+          "station": "Packaging",
+          "note": "Full shift"
+        },
+        {
+          "date": "Mar 18",
+          "station": "Harvest",
+          "note": "Morning + crossover lead"
+        }
+      ]
+    }
+  },
+  {
+    "id": "emp_004",
+    "name": "Carlos Rivera",
+    "email": null,
+    "rank": "Supervisor",
+    "level": "L3",
+    "primary_station": "Harvest",
+    "start_date": "2023-06-01",
+    "rank_start_date": "2024-09-01",
+    "current_stage": null,
+    "language": "en",
+    "status": "active",
+    "avatar_url": null,
+    "stageProgress": {},
+    "stationExperience": [
+      {
+        "station_id": "Harvest",
+        "hours": 720,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder",
+          "Catcher",
+          "Corner"
+        ]
+      },
+      {
+        "station_id": "Packaging",
+        "hours": 440,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Runner",
+          "Case Packer"
+        ]
+      },
+      {
+        "station_id": "Seeding",
+        "hours": 310,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "ASRS",
+        "hours": 220,
+        "qualified": true,
+        "positions": [
+          "Pilot"
+        ]
+      },
+      {
+        "station_id": "Inserts",
+        "hours": 195,
+        "qualified": true,
+        "positions": [
+          "Lead",
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Washing",
+        "hours": 70,
+        "qualified": false,
+        "positions": [
+          "Feeder"
+        ]
+      },
+      {
+        "station_id": "Dirt Removal",
+        "hours": 20,
+        "qualified": false,
+        "positions": []
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Forklift",
+        "status": "active",
+        "earned": "2023-12-10",
+        "expires": "2025-12-10"
+      },
+      {
+        "name": "Hazardous Chemical",
+        "status": "active",
+        "earned": "2024-03-15",
+        "expires": null
+      },
+      {
+        "name": "FSMA",
+        "status": "active",
+        "earned": "2024-04-20",
+        "expires": null
+      },
+      {
+        "name": "HACCP",
+        "status": "active",
+        "earned": "2024-07-08",
+        "expires": null
+      },
+      {
+        "name": "CPR/AED",
+        "status": "active",
+        "earned": "2024-10-12",
+        "expires": "2026-10-12"
+      },
+      {
+        "name": "SQF Practitioner",
+        "status": "not-started",
+        "earned": null,
+        "expires": null
+      },
+      {
+        "name": "OSHA 10 Hour",
+        "status": "not-started",
+        "earned": null,
+        "expires": null
+      }
+    ],
+    "skills": [
+      {
+        "id": 16,
+        "name_en": "Harvester Operation",
+        "name_es": "Operación de Cosechadora",
+        "level": "proficient",
+        "category": "machine",
+        "station_id": "Harvest",
+        "notes_en": "Can train others on corner position",
+        "notes_es": "Puede capacitar a otros en la posición de esquina",
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-08-15"
+      },
+      {
+        "id": 17,
+        "name_en": "ASRS Operation",
+        "name_es": "Operación del ASRS",
+        "level": "proficient",
+        "category": "machine",
+        "station_id": "ASRS",
+        "notes_en": "Certified pilot, trains relief pilots",
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-11-20"
+      },
+      {
+        "id": 18,
+        "name_en": "Forklift Operation",
+        "name_es": "Operación de Montacargas",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2023-12-10"
+      },
+      {
+        "id": 19,
+        "name_en": "HACCP Principles",
+        "name_es": "Principios HACCP",
+        "level": "certified",
+        "category": "certification",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-07-08"
+      },
+      {
+        "id": 20,
+        "name_en": "Shift Lead",
+        "name_es": "Líder de Turno",
+        "level": "proficient",
+        "category": "leadership",
+        "station_id": null,
+        "notes_en": "Handles full-shift lead independently",
+        "notes_es": "Maneja el liderazgo de turno completo de forma independiente",
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-01-10"
+      },
+      {
+        "id": 21,
+        "name_en": "Corrective Action",
+        "name_es": "Acción Correctiva",
+        "level": "competent",
+        "category": "leadership",
+        "station_id": null,
+        "notes_en": "Documenting CAs with coaching notes",
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-03-05"
+      },
+      {
+        "id": 22,
+        "name_en": "Spanish (Basic Phrases)",
+        "name_es": "Español (Frases Básicas)",
+        "level": "competent",
+        "category": "leadership",
+        "station_id": null,
+        "notes_en": "Can give safety instructions in Spanish",
+        "notes_es": "Puede dar instrucciones de seguridad en español",
+        "endorsed_by": "Jack P.",
+        "date_added": "2024-10-01"
+      },
+      {
+        "id": 23,
+        "name_en": "5S Methodology",
+        "name_es": "Metodología 5S",
+        "level": "learning",
+        "category": "technique",
+        "station_id": null,
+        "notes_en": null,
+        "notes_es": null,
+        "endorsed_by": "Jack P.",
+        "date_added": "2025-04-01"
+      }
+    ],
+    "devSuggestions": [
+      {
+        "id": 5,
+        "skill_en": "5S Audit Procedures",
+        "skill_es": "Procedimientos de Auditoría 5S",
+        "station_id": null,
+        "suggested_by": "Jack P.",
+        "reason_en": "Next step toward AGM readiness",
+        "reason_es": null
+      }
+    ],
+    "assessments": [
+      {
+        "station_id": null,
+        "module_id": "mod-01",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jun 8",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-02",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jun 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": null,
+        "module_id": "mod-04",
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jun 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Aug 15",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Harvest",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Aug 17",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Sep 10",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Packaging",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Sep 12",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Oct 22",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Seeding",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Oct 24",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "ASRS",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Nov 18",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "ASRS",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Nov 20",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Inserts",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Jan 14",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Inserts",
+        "module_id": null,
+        "type": "Written",
+        "result": "Pass",
+        "date": "Jan 16",
+        "evaluator_id": null
+      },
+      {
+        "station_id": "Washing",
+        "module_id": null,
+        "type": "Practical",
+        "result": "Pass",
+        "date": "Mar 5",
+        "evaluator_id": null
+      }
+    ],
+    "violations": [],
+    "requests": [],
+    "promotionReqs": [
+      {
+        "label": "Time in role",
+        "detail": "20 months in role",
+        "met": true
+      },
+      {
+        "label": "Clean record",
+        "detail": "12 months clean",
+        "met": true
+      },
+      {
+        "label": "Supervisor L4",
+        "detail": "Need 2 more stations",
+        "met": false
+      },
+      {
+        "label": "Interview panel",
+        "detail": "Not yet scheduled",
+        "met": false
+      },
+      {
+        "label": "SQF Practitioner",
+        "detail": "Not started",
+        "met": false
+      },
+      {
+        "label": "OSHA 10 Hour",
+        "detail": "Not started",
+        "met": false
+      }
+    ],
+    "training": {
+      "peopleTrained": [
+        {
+          "name": "Maria Santos",
+          "station": "Packaging",
+          "date": "Nov 5"
+        },
+        {
+          "name": "Leo C.",
+          "station": "Harvest",
+          "date": "Dec 12"
+        },
+        {
+          "name": "Hana M.",
+          "station": "Seeding",
+          "date": "Feb 8"
+        },
+        {
+          "name": "Darius W.",
+          "station": "Harvest",
+          "date": "Mar 20"
+        },
+        {
+          "name": "Sofia R.",
+          "station": "Packaging",
+          "date": "Apr 10"
+        },
+        {
+          "name": "Marcus T.",
+          "station": "Inserts",
+          "date": "Apr 22"
+        },
+        {
+          "name": "Jamie Chen",
+          "station": "Seeding",
+          "date": "May 2"
+        }
+      ],
+      "shiftsLed": [
+        {
+          "date": "Oct 8",
+          "station": "Harvest",
+          "note": "Full morning shift"
+        },
+        {
+          "date": "Oct 22",
+          "station": "Packaging",
+          "note": "Covered for Priya"
+        },
+        {
+          "date": "Nov 14",
+          "station": "Harvest",
+          "note": "Full shift"
+        },
+        {
+          "date": "Dec 3",
+          "station": "Harvest",
+          "note": "Morning + Packing crossover"
+        },
+        {
+          "date": "Jan 10",
+          "station": "Seeding",
+          "note": "Full shift"
+        },
+        {
+          "date": "Feb 20",
+          "station": "Harvest",
+          "note": "Full shift + EOD report"
+        },
+        {
+          "date": "Mar 28",
+          "station": "Packaging",
+          "note": "Full shift"
+        },
+        {
+          "date": "Apr 14",
+          "station": "Harvest",
+          "note": "Full shift"
+        },
+        {
+          "date": "May 5",
+          "station": "Harvest",
+          "note": "Full shift + new hire debrief"
+        }
+      ],
+      "correctiveActions": [
+        {
+          "date": "Oct 18",
+          "type": "Late Arrival",
+          "note": "Documented and addressed"
+        },
+        {
+          "date": "Nov 5",
+          "type": "PPE Violation",
+          "note": "Glove policy — coaching done"
+        },
+        {
+          "date": "Dec 9",
+          "type": "Late Arrival",
+          "note": "Second occurrence, written warning"
+        },
+        {
+          "date": "Jan 22",
+          "type": "Long Break",
+          "note": "Documented"
+        },
+        {
+          "date": "Feb 14",
+          "type": "Late Arrival",
+          "note": "Coaching session completed"
+        },
+        {
+          "date": "Mar 30",
+          "type": "PPE Violation",
+          "note": "Coaching done"
+        },
+        {
+          "date": "Apr 8",
+          "type": "Long Break",
+          "note": "Second occurrence — written"
+        },
+        {
+          "date": "May 1",
+          "type": "Late Arrival",
+          "note": "Documented and addressed"
+        }
+      ]
+    }
+  }
+]

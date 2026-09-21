@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Seeding",
+    "color": "#dc2626",
+    "essential": false,
+    "positions": ["Lead", "Feeder", "Stacker"],
+    "sopLinks": [
+      { "label": "Seeding SOPs", "url": null }
+    ]
+  },
+  {
+    "id": "Inserts",
+    "color": "#ca8a04",
+    "essential": true,
+    "positions": ["Lead", "Feeder"],
+    "sopLinks": [
+      { "label": "Inserts SOPs", "url": null }
+    ]
+  },
+  {
+    "id": "ASRS",
+    "color": "#9333ea",
+    "essential": true,
+    "positions": ["Pilot"],
+    "sopLinks": [
+      { "label": "ASRS Operation SOPs", "url": null }
+    ]
+  },
+  {
+    "id": "Harvest",
+    "color": "#16a34a",
+    "essential": true,
+    "positions": ["Lead", "Feeder", "Catcher", "Stacker", "Dumper", "Corner"],
+    "sopLinks": [
+      { "label": "Harvest SOPs", "url": null }
+    ]
+  },
+  {
+    "id": "Washing",
+    "color": "#0891b2",
+    "essential": false,
+    "positions": ["Feeder", "Catcher"],
+    "sopLinks": [
+      { "label": "Washing SOPs", "url": null }
+      ]
+  },
+  {
+    "id": "Dirt Removal",
+    "color": "#ea580c",
+    "essential": false,
+    "positions": ["Lead", "Feeder"],
+    "sopLinks": [
+      { "label": "Dirt Removal SOPs", "url": null }
+    ]
+  },
+  {
+    "id": "Packaging",
+    "color": "#2563eb",
+    "essential": true,
+    "positions": ["Lead", "Runner", "Weigher", "Catcher", "Tamper", "Case Packer"],
+    "sopLinks": [
+      { "label": "Packaging SOPs", "url": null }
+            ]
+  }
+]

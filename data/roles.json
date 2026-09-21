@@ -1,0 +1,198 @@
+{
+  "qualificationHours": 80,
+
+  "skillLevels": {
+    "order": ["learning", "competent", "proficient", "certified"],
+    "labels": {
+      "learning":   "Learning",
+      "competent":  "Competent",
+      "proficient": "Proficient",
+      "certified":  "Certified"
+    },
+    "colors": {
+      "learning":   "#92400e",
+      "competent":  "#2563eb",
+      "proficient": "#16a34a",
+      "certified":  "#7c3aed"
+    }
+  },
+
+  "skillCategories": [
+    { "id": "certification", "label": "Certification", "color": "#7c3aed" },
+    { "id": "machine",       "label": "Machine",       "color": "#2563eb" },
+    { "id": "technique",     "label": "Technique",     "color": "#16a34a" },
+    { "id": "safety",        "label": "Safety",        "color": "#ea580c" },
+    { "id": "leadership",    "label": "Leadership",    "color": "#c026d3" }
+  ],
+
+  "ranks": [
+    {
+      "id": "Farmhand",
+      "name": "Farmhand",
+      "pay": "$18/hr",
+      "desc": "Learn the basics. Build your foundation.",
+      "minTime": "3 months",
+      "stages": [
+        {
+          "id": "onboarding",
+          "name": "Onboarding",
+          "desc": "HR basics, safety training, emergency procedures, station tour",
+          "items": [
+            { "id": "hr_complete",           "label": "HR onboarding complete" },
+            { "id": "safety_training",        "label": "Safety training (PPE, handwashing, gloves)" },
+            { "id": "station_tour",           "label": "Station tour with buddy" },
+            { "id": "emergency_procedures",   "label": "Emergency procedures review" },
+            { "id": "station_shadow",         "label": "Shadowing at primary station" }
+          ]
+        },
+        {
+          "id": "foundations",
+          "name": "Foundations",
+          "desc": "Building independence at your primary station",
+          "items": [
+            { "id": "independent_tasks",      "label": "Independent basic tasks" },
+            { "id": "safety_quiz",            "label": "Safety quiz passed" },
+            { "id": "clean_safety_record",    "label": "Clean safety record" },
+            { "id": "attendance_satisfactory","label": "Attendance satisfactory" },
+            { "id": "working_at_pace",        "label": "Working at expected pace" }
+          ]
+        },
+        {
+          "id": "proficiency",
+          "name": "Building Proficiency",
+          "desc": "Cross-training and expanding your capabilities",
+          "items": [
+            { "id": "multi_station",          "label": "Familiar with 2+ stations" },
+            { "id": "production_schedule",    "label": "Understands production schedule" },
+            { "id": "good_attendance",        "label": "Good attendance record" },
+            { "id": "cross_training",         "label": "Cross-training started" }
+          ]
+        },
+        {
+          "id": "farmer-ready",
+          "name": "Farmer Ready",
+          "desc": "Complete assessments and forklift certification to receive your promotion",
+          "items": [
+            { "id": "knowledge_reqs",             "label": "Knowledge requirements met" },
+            { "id": "performance_reqs",           "label": "Performance requirements met" },
+            { "id": "supervisor_recommendation",  "label": "Supervisor recommendation" },
+            { "id": "forklift_cert",              "label": "Forklift certification" }
+          ]
+        }
+      ],
+      "reqsForNext": [
+        { "label": "Time in role",        "detail": "3 months" },
+        { "label": "Clean record",        "detail": "3 months" },
+        { "label": "All stages complete", "detail": "Onboarding through Farmer Ready" },
+        { "label": "Forklift certification", "detail": "Required" },
+        { "label": "Supervisor recommendation", "detail": "Required" }
+      ]
+    },
+
+    {
+      "id": "Farmer",
+      "name": "Farmer",
+      "pay": "$19–22/hr",
+      "desc": "Run a station. Build cross-station expertise.",
+      "minTime": "6 months",
+      "levels": [
+        { "l": "L1", "stations": 1, "bonus": "Base rate",  "desc": "Qualified at 1 station" },
+        { "l": "L2", "stations": 3, "bonus": "+$0.50/hr", "desc": "Qualified at 3 stations" },
+        { "l": "L3", "stations": 5, "bonus": "+$0.50/hr", "desc": "Qualified at 5 stations" },
+        { "l": "L4", "stations": 7, "bonus": "+$2.00/hr", "desc": "Qualified at all 7 stations" }
+      ],
+      "reqsForNext": [
+        { "label": "Time in role",    "detail": "6 months" },
+        { "label": "Clean record",    "detail": "6 months" },
+        { "label": "Farmer L3",       "detail": "5 stations qualified" },
+        { "label": "Interview panel", "detail": "Required" },
+        { "label": "Haz-Chem certification", "detail": "Required" },
+        { "label": "FSMA certification",     "detail": "Required" }
+      ]
+    },
+
+    {
+      "id": "Senior Farmer",
+      "name": "Senior Farmer",
+      "pay": "$23–26/hr",
+      "desc": "Train others. Lead by example.",
+      "minTime": "6 months",
+      "levels": [
+        { "l": "L1", "stations": 1, "bonus": "Base rate",  "desc": "1 station" },
+        { "l": "L2", "stations": 3, "bonus": "+$0.50/hr", "desc": "3 stations" },
+        { "l": "L3", "stations": 5, "bonus": "+$0.50/hr", "desc": "5 stations" },
+        { "l": "L4", "stations": 7, "bonus": "+$2.00/hr", "desc": "All stations" }
+      ],
+      "reqsForNext": [
+        { "label": "Time in role",      "detail": "6 months" },
+        { "label": "Clean record",      "detail": "12 months" },
+        { "label": "Sr. Farmer L4",     "detail": "All stations qualified" },
+        { "label": "Interview panel",   "detail": "Required" },
+        { "label": "HACCP certification",   "detail": "Required" },
+        { "label": "CPR/AED certification", "detail": "Required" },
+        { "label": "5+ people trained", "detail": "Documented" },
+        { "label": "5+ shifts led",     "detail": "Documented" }
+      ]
+    },
+
+    {
+      "id": "Supervisor",
+      "name": "Supervisor",
+      "pay": "$28–33/hr",
+      "desc": "Own the shift. Enforce standards. Build the team.",
+      "minTime": "6 months",
+      "levels": [
+        { "l": "L1", "stations": 1, "bonus": "Base rate",  "desc": "1 station" },
+        { "l": "L2", "stations": 3, "bonus": "+$1.00/hr", "desc": "3 stations" },
+        { "l": "L3", "stations": 5, "bonus": "+$1.00/hr", "desc": "5 stations" },
+        { "l": "L4", "stations": 7, "bonus": "+$3.00/hr", "desc": "All stations" }
+      ],
+      "reqsForNext": [
+        { "label": "Time in role",       "detail": "6 months" },
+        { "label": "Clean record",       "detail": "12 months" },
+        { "label": "Supervisor L4",      "detail": "All 7 stations qualified" },
+        { "label": "Interview panel",    "detail": "Required" },
+        { "label": "SQF Practitioner",   "detail": "Required" },
+        { "label": "OSHA 10 Hour",       "detail": "Required" }
+      ]
+    },
+
+    {
+      "id": "AGM",
+      "name": "Assistant GM",
+      "pay": "$38/hr + $10K/yr",
+      "desc": "Run daily ops. Handle incidents. Build the program.",
+      "minTime": "6 months",
+      "highlights": [
+        "Own daily operations — floor standards, scheduling, incident response",
+        "Lead Lean/5S improvement projects; instruct + run audits",
+        "Monthly ops review with GM",
+        "Intermediate-to-advanced computer proficiency; written statistical reporting",
+        "10+ shifts led and 10+ corrective actions reviewed and documented",
+        "Lead incident response drills (3+ in lead role)"
+      ],
+      "reqsForNext": [
+        { "label": "Time in role",    "detail": "6 months" },
+        { "label": "Clean record",    "detail": "12 months" },
+        { "label": "AGM L4",          "detail": "All stations staffed" },
+        { "label": "Interview panel", "detail": "Required" }
+      ]
+    },
+
+    {
+      "id": "GM",
+      "name": "General Manager",
+      "pay": "Leadership",
+      "desc": "Full P&L authority. Program oversight. Build the team.",
+      "minTime": "12 months",
+      "highlights": [
+        "Full P&L authority and staffing decisions",
+        "Training program oversight — ensure all-station proficiency across the team",
+        "Drill program design, review, and improvement",
+        "Monthly coaching with AGMs; executive-level reporting",
+        "AI-native computer proficiency and executive development program",
+        "CA program oversight; approve weekly production schedule"
+      ]
+    }
+  ]
+}

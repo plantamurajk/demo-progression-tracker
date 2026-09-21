@@ -2,7 +2,7 @@
 
 An internal web app built for the production floor of a vertical farming facility, giving every employee a real-time view of where they stand in the company's career ladder and what they need to do next.
 
-**[Live demo](https://beanstalk-progression-tracker.vercel.app/)**. Runs entirely on fictional data. No login required.
+**[Live demo](demo-progression-tracker-fgtv.vercel.app)**. Runs entirely on fictional data. No login required.
 
 ---
 

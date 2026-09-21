@@ -23,7 +23,7 @@ Five tabs, with content that adapts to the viewer's rank:
 | **Home** | Current stage progress, station experience rings, endorsed skills, next-step prompt |
 | **Ladder** | The full career ladder with per-rank requirements and a visual level stepper |
 | **My Path** | Personalized study guide for the current stage, assessment requests, training requests |
-| **Library** | SOPs and training materials organized by station and document type |
+| **Library** | SOPs and training materials organized by station and document type (document links are omitted from this repo and the demo) |
 | **Schedule** | Reserved for weekly station assignments (not built) |
 
 A Farmhand sees 90-day onboarding checkpoints. A Farmer sees station qualification progress toward L1–L4. A Senior Farmer sees training sessions led and shift-lead counts. The home screen is a different screen depending on who is looking at it.
@@ -44,7 +44,7 @@ Because this data was collected in a relatively coarse-grained way, every backfi
 
 **Slack OAuth instead of Google Workspace.** The obvious identity layer was Google Workspace, but the company had stopped issuing email addresses to new hires. That meant the newest employees, the ones with the most to gain from a progression tracker, would have been the ones locked out. Every employee was already in Slack. Using Slack as the identity provider was the only approach that didn't reintroduce the exact access friction the app existed to remove.
 
-**Presigned URLs for training materials.** The Library tab serves proprietary SOPs and training documents. Gating the interface behind a login doesn't gate the files, so the app uses authenticated routes and presigned URLs from private storage rather than public links behind a UI that merely looks locked.
+**Presigned URLs for training materials.** The Library tab serves proprietary SOPs and training documents. Gating the interface behind a login doesn't gate the files, so the plan was to move them into private storage and serve them through authenticated routes and presigned URLs, rather than public links behind a UI that merely looks locked. This wasn't built before the company wound down: the prototype linked to shared Google Drive files. Those links have been removed from this repository and the demo, so documents show as "coming soon".
 
 **One shape contract between mock and live.** `src/api.js` exposes a single `adaptEmployee` adapter that every backend payload passes through, and offline mock mode runs the same fixtures through the same adapter. Without this, mock data and live data drift apart silently and the offline mode stops being a useful test surface.
 
